@@ -8,7 +8,7 @@ Page({
 	build() {
 		pageInit({
 			onStop() {
-				gotoPage({ url: "page/HomePage/index", param: "" });
+				gotoPage({ url: "page/FileManager/index", param: "" });
 			},
 		});
 	},

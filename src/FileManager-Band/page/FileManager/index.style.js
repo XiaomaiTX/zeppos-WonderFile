@@ -28,9 +28,9 @@ export const TITLE_STYLE = {
 	align_h: hmUI.align.LEFT,
 	align_v: hmUI.align.CENTER_V,
 	text_style: hmUI.text_style.NONE,
-	text: gettext("HomePage_index_TITLE"),
+	text: gettext("FileManager_index_TITLE"),
 };
-export const APP_MANAGER_BUTTON_STYLE = {
+export const REFRESH_BUTTON_STYLE = {
 	x: 0,
 	y: 139,
 	w: 192,
@@ -38,12 +38,12 @@ export const APP_MANAGER_BUTTON_STYLE = {
 	radius: 21,
 	normal_color: 0xe0eaff,
 	press_color: 0x868c99,
-	text: gettext("HomePage_index_APP_MANAGER_BUTTON_TEXT"),
+	text: gettext("FileManager_index_REFRESH_BUTTON_TEXT"),
 	text_size: 26,
 	color: 0x000000,
 	click_func: (button_widget) => {},
 };
-export const FILE_LIST_BUTTON_STYLE = {
+export const EXTENSION_BUTTON_STYLE = {
 	x: 0,
 	y: 226,
 	w: 192,
@@ -51,12 +51,12 @@ export const FILE_LIST_BUTTON_STYLE = {
 	radius: 21,
 	normal_color: 0x202124,
 	press_color: 0x131416,
-	text: gettext("HomePage_index_FILE_LIST_BUTTON_BUTTON_TEXT"),
+	text: gettext("HomePage_index_EXTENSION_BUTTON_TEXT"),
 	text_size: 26,
 	color: 0xffffff,
 	click_func: (button_widget) => {},
 };
-export const FILE_LIST_BUTTON_COVER_STYLE = {
+export const EXTENSION_BUTTON_COVER_STYLE = {
 	x: 0,
 	y: 226,
 	w: 192,
