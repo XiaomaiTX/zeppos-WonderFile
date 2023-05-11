@@ -1,0 +1,4 @@
+msgid "HomePage_index_TITLE"
+msgstr "File"
+msgid "HomePage_index_APP_MANAGER_BUTTON_TEXT"
+msgstr "File"

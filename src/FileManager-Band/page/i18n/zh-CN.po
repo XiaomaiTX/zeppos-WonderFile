@@ -1,0 +1,6 @@
+msgid "HomePage_index_TITLE"
+msgstr "文件"
+msgid "HomePage_index_APP_MANAGER_BUTTON_TEXT"
+msgstr "小程序管理"
+msgid "HomePage_index_FILE_LIST_BUTTON_BUTTON_TEXT"
+msgstr "文件列表"
