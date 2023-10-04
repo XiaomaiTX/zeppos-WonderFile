@@ -32,7 +32,7 @@ Page({
                               press_color: 0x87CEFA,//按压按钮色
                               text: '小程序管理',//文字
                               click_func: () => {//回调，触发事件
-                              hmApp.gotoPage({url: "page/HomePage/AppListScreen",param: "..."});//跳转页面
+                              hmApp.gotoPage({url: "page/HomePage/applist",param: "..."});//跳转页面
                               } 
                               }); 
                     //--------------------------------------------------------
@@ -56,9 +56,9 @@ Page({
                             text_style: hmUI.text_style.NONE,
                             text: '文件列表'
                           })
-                          .addEventListener(hmUI.event.CLICK_UP, function (c) {
+                         .addEventListener(hmUI.event.CLICK_UP, function (c) {
                             hmApp.gotoPage({
-                            url: "page/HomePage/AppListScreen",
+                            url: "page/HomePage/BandManger",
                             param: "..."
                             }) 
                             });
@@ -74,7 +74,7 @@ Page({
                       hmUI.createWidget(hmUI.widget.IMG, {
                         x: 20,
                         y: 330,
-                        src: "cloud.png"
+                        src: "assets/cloud.png"
                         })
                         
                           hmUI.createWidget(hmUI.widget.TEXT, {
@@ -123,12 +123,15 @@ Page({
                               text_style: hmUI.text_style.NONE,
                               text: '储存用量'
                             })
-                            .addEventListener(hmUI.event.CLICK_UP, function (c) {
-                              gotoPage({
-                                url: "page/HomePage/Storage",
+                            /* .addEventListener(hmUI.event.CLICK_UP, function (c) {
+                              hmApp.startApp({
+                                url: "Settings_dndModelScreen",
                                 native: true,
                               });
-                            }); 
+                            }); */
+              
+                        //-------------------------------------
+              
               
                         hmUI.createWidget(hmUI.widget.FILL_RECT, {   
                           x: 4,
@@ -157,8 +160,8 @@ Page({
                                 text: '无缝换绑'
                               })
                               .addEventListener(hmUI.event.CLICK_UP, function (c) {
-                                gotoPage({
-                                  url: "page/HomePage/hb",
+                                hmApp.startApp({
+                                  url: "page/HomePage/41",
                                   native: true,
                                 });
                               }); 
@@ -177,9 +180,12 @@ Page({
                             text: '关于'
                           })
                           .addEventListener(hmUI.event.CLICK_UP, function (c) {                          
-                            gotoPage({ url: "page/HomePage/index3", param: "" });
+                            hmApp.gotoPage({
+                            url: "page/192x490_s_l66/index.page1",
+                            param: "..."
+                            })
                         })
-
+            
 
 
 
