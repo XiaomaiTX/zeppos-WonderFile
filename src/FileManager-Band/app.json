@@ -1,8 +1,8 @@
 {
   "configVersion": "v2",
   "app": {
-    "appId": 24947,
-    "appName": "Empty",
+    "appId": 204991,
+    "appName": "万文管理",
     "appType": "app",
     "version": {
       "code": 1,
@@ -20,38 +20,38 @@
       "minVersion": "1.0.0"
     }
   },
-  "targets": { 
+  "targets": {
     "480x480-gtr-3-pro": {
       "module": {
         "page": {
           "pages": [
-            "page/index","page/HomePage/index","page/FileManager/index"
+            "page/index",
+            "page/HomePage/index",
+            "page/HomePage/index1",
+            "page/HomePage/index2",
+            "page/HomePage/index3",
+            "page/HomePage/Forced_repair",
+            "page/HomePage/hb",
+            "page/HomePage/BandManger",
+            "page/HomePage/applist",
+            "page/HomePage/41",
+            "page/HomePage/Storage",
+            "page/HomePage/index4"
           ]
-        },
-        "app-side": {
-          "path": "app-side/index"
         }
       },
       "platforms": [
         {
-          "name": "gtr3-pro",
-          "deviceSource": 229
-        },
-        {
-          "name": "gtr3-pro-w",
-          "deviceSource": 230
-        },
-        {
-          "name": "gtr3-pro-meilin",
-          "deviceSource": 6095106
-        }
+          "name": "mi-band7",
+          "deviceSource": 262
+    }
       ],
       "designWidth": 480
     }
   },
   "i18n": {
     "en-US": {
-      "appName": "Empty"
+      "appName": "万文管理"
     }
   },
   "defaultLanguage": "en-US"
